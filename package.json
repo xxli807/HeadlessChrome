@@ -1,0 +1,22 @@
+{
+  "name": "headlesschrome",
+  "version": "1.0.0",
+  "description": "it is a test for the headless chrome",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxli807/HeadlessChrome.git"
+  },
+  "author": "xinxin.li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xxli807/HeadlessChrome/issues"
+  },
+  "homepage": "https://github.com/xxli807/HeadlessChrome#readme",
+  "dependencies": {
+    "puppeteer": "^0.11.0"
+  }
+}
