@@ -28,8 +28,9 @@ const puppeteer = require('puppeteer');
 (async () => {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
+    await await page.emulateMedia('screen');
     await page.goto('https://google.com.au', {waitUntil: 'networkidle'});
-    await page.pdf({path: 'example.pdf', format: 'A4'});
+    await page.pdf({path: 'example.pdf', format: 'A4',  printBackground: true});
   
     await browser.close();
   })();
